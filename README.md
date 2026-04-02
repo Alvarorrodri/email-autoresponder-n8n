@@ -26,3 +26,10 @@ a emails entrantes usando inteligencia artificial (Google Gemini).
 
 Álvaro Rodrigo Cantalejo
 - LinkedIn: linkedin.com/in/alvarorrodrigo
+
+
+<img width="1407" height="509" alt="Captura de pantalla 2026-04-02 142015" src="https://github.com/user-attachments/assets/ccd11fc6-8bb0-4d52-a574-57f303641dfb" />
+
+
+<img width="1057" height="582" alt="Captura de pantalla 2026-04-02 142231" src="https://github.com/user-attachments/assets/ba1ad870-bdd8-437a-beec-d5a2a9950b39" />
+

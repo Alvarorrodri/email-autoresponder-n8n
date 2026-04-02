@@ -1,30 +1,32 @@
-# 📧 Email Auto-responder con IA
+# 📧 Email Autoresponder con IA y lectura de PDF
 
-Automatización construida con n8n que genera respuestas automáticas 
-a emails entrantes usando inteligencia artificial (Google Gemini).
+Automatización con n8n que responde emails automáticamente 
+usando IA, con capacidad de leer y analizar archivos PDF adjuntos.
 
 ## ¿Cómo funciona?
 
-1. El flujo se activa cuando llega un nuevo email a Gmail
-2. Extrae el asunto, remitente y contenido del email
-3. Google Gemini genera una respuesta profesional automáticamente
-4. La respuesta se guarda como borrador en Gmail lista para revisar y enviar
+1. Detecta emails nuevos en Gmail automáticamente
+2. Comprueba si el email tiene un PDF adjunto
+3. Si tiene PDF → lo extrae y lo analiza con IA
+4. Si no tiene PDF → responde basándose en el texto del email
+5. Genera un borrador de respuesta profesional en Gmail
 
 ## Tecnologías usadas
 
 - n8n (automatización)
 - Gmail API
-- Google Gemini API (IA generativa)
+- Groq API (Llama 3.3 70B)
+- Extracción de texto de PDF
 
 ## Cómo usarlo
 
-1. Importa el archivo JSON en tu instancia de n8n
-2. Conecta tus credenciales de Gmail y Google Gemini
-3. Activa el flujo
+1. Importa el JSON en tu instancia de n8n
+2. Conecta tus credenciales de Gmail y Groq
+3. Activa el flujo y empezará a procesar emails automáticamente
 
 ## Autor
 
-Álvaro Rodrigo Cantalejo
+Álvaro Rodrigo Cantalejo 
 - LinkedIn: linkedin.com/in/alvarorrodrigo
 
 
